@@ -1,17 +1,52 @@
 body {
   margin: 0;
+  height: 100vh;
 }
 
-.container {
-  height: 500vh;
+.body-background-top {
+  background: green;
 }
 
-.test {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.body-background-bottom {
+  background: black;
+}
+
+
+.all-scene {
+  height: 100%;
+}
+
+.first-part {
+  height: 100%;
+}
+
+.grass {
   background: green;
   width: 100vw;
-  height: 100vh;
-  transform: scale(1.5, 1.5);
+  height: 100%;
+}
+
+.sky {
+  position: relative;
+  background: cornflowerblue;
+  width: 100vw;
+  height: 100%;
+}
+
+.oblaka {
+  background: red;
+  width: 500px;
+  height: 100px;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+
+.space {
+  background: black;
+  width: 100vw;
+  height: 100%;
 }
